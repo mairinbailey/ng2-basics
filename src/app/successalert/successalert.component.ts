@@ -3,9 +3,10 @@ import { Component } from
 
 @Component ({
   selector: 'success-alert',
-  templateUrl: './successalert.component.html'
+  templateUrl: './successalert.component.html',
+  styleUrls:['./successalert.component.css']
 })
 
 export class SuccessAlertComponent {
-  
+
 }
