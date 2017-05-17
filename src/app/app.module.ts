@@ -6,14 +6,16 @@ import { AppComponent } from './app.component';
 import { SuccessAlertComponent } from './successalert/successalert.component';
 import { WarningAlertComponent } from './warningalert/warningalert.component';
 
-import { UserInputComponent } from './user-input/user-input.component'
+import { UserInputComponent } from './user-input/user-input.component';
+import { DisplayDetailsComponent } from './display-details/display-details.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     UserInputComponent,
     SuccessAlertComponent,
-    WarningAlertComponent
+    WarningAlertComponent,
+    DisplayDetailsComponent
   ],
   imports: [
     BrowserModule,
