@@ -15,9 +15,10 @@ export class DisplayDetailsComponent implements OnInit {
   ngOnInit() {
   }
   onDisplayDetails(){
-    this.detailsCount++;
+    // this.detailsCount++;
 
-    this.log.push(this.detailsCount)
+    // this.log.push(this.detailsCount)
+    this.log.push(new Date())
 
     this.showDetails =!this.showDetails
   }
